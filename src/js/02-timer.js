@@ -22,7 +22,6 @@ const options = {
         } else { 
             Notiflix.Notify.failure('Please choose a date in the future');
         };
-        console.log(selectedDates[0]);
     },
 };
 
