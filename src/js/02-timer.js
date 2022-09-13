@@ -53,7 +53,6 @@ function startTimer() {
             hoursEl.textContent = pad(0);
             minsEl.textContent = pad(0);
             secsEl.textContent = pad(0);
-            return
             }
         }, 1000)
     return timerId
