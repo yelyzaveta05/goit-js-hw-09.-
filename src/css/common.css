@@ -52,3 +52,12 @@ button{
   font-weight: 500;
   text-transform: uppercase;
 }
+
+.form {
+display: table-caption;
+}
+
+.form button {
+  margin-top: 15px;
+  cursor: pointer;
+}
