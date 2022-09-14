@@ -15,7 +15,7 @@ function createPromise(position, delay) {
       } else {
         rej({ position, delay });
       };
-    }, delayEl);
+    }, delay);
   });
 };
 
